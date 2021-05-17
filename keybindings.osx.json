@@ -91,17 +91,6 @@
 
   { "key": "cmd+end", "command": "cursorEnd", "when": "textInputFocus" },
   { "key": "cmd+home", "command": "cursorHome", "when": "textInputFocus" },
-  {
-    "key": "cmd+end",
-    "command": "workbench.action.terminal.scrollToBottom",
-    "when": "terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "cmd+down",
-    "command": "workbench.action.terminal.scrollToNextCommand",
-    "when": "terminalFocus && terminalProcessSupported && !accessibilityModeEnabled"
-  }
-
   // {
   //   "key": "option+shift+down",
   //   "command": "editor.emmet.action.decrementNumberByOne"
